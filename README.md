@@ -1,0 +1,2 @@
+# PAC12_MBB_Report
+Analysis and visualization of team and player performance in the mens college basketball PAC 12 conference in 2018. Data was sourced from an xlsx (excel) file containing all NCAA mens basketball player statistics and information from the 2018 season. Data manipulation and visualization was done through R in conjunction with the dplyr data manipulation and the ggplot2 + plotly data visualization libraries. The report was generated through a Rmd file.
