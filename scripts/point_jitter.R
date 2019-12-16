@@ -2,7 +2,7 @@ library(dplyr)
 library(plotly)
 library(ggplot2)
 
-player_data <- read.csv("data/Player_Stats.csv", stringsAsFactors = FALSE)
+player_data <- read.csv("../data/Player_Stats.csv", stringsAsFactors = FALSE)
 player_data$STL_BLK <- player_data$Totals.STL + player_data$Totals.BLK
 player_data$hover <- paste("Player Name: ", player_data$Player, "<br>", "School: ", 
                            player_data$School, sep = "")

@@ -2,7 +2,7 @@ library(dplyr)
 library(plotly)
 library(ggplot2)
 
-player_data <- read.csv("data/Player_Stats.csv", stringsAsFactors = FALSE)
+player_data <- read.csv("../data/Player_Stats.csv", stringsAsFactors = FALSE)
 
 shooting_data <- select(player_data, School, Conf, Totals.FGA, Totals.FG)
 
